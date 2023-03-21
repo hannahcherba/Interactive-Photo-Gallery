@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+body {
+   margin-bottom: 15%;
+}
+
+form.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+input {
+    width: 55%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px  rgb(145, 139, 139);
+    box-shadow: 1px 2px 3px lightgrey;
+}
+
+input::placeholder {
+   color: rgb(104, 123, 104);
+   font-size: 15px;
+}
+
+input:hover, input:focus {
+    border: solid 2px rgb(169, 173, 169);
+    box-shadow: 2px 3px 4px rgb(175, 170, 170);
+    background-color: rgb(249, 250, 249);
+}
+
+div.gallery {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 20% 20% 20% 20%;
+   grid-gap: 5% 3%;
+   justify-content: center;
+   margin:auto;
+}
+img {
+    border-radius: 5%;
+}
