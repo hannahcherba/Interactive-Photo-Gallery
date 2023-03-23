@@ -6,76 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
     <title>Interactive Photo Gallery</title>
 
 </head>
 <body>
-    <form class="search" action="action_page.php">
-        <input type="search" name="search" id="search" placeholder="  Search">
-    </form>
+    <main>
+        <form class="search" action="action_page.php">
+            <input type="search" name="search" id="search" placeholder="  Search">
+        </form>
 
-    <div class="gallery">
-        <a href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.
-        ">
-            <img src="photos/thumbnails/01.jpg" alt="A picture of a golden field with hay bales." >
-        </a>
+        <div class="gallery">
+                
+            <a class="a-element" href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.
+            ">
+                <img class="pic" src="photos/thumbnails/01.jpg" alt="A picture of a golden field with hay bales." >
+                <div class="overlay">
+                    <h3>Hay Bales</h3>
+                    <p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
+                </div>
+            </a>
+            
 
-        <a href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.
-        ">
-            <img src="photos/thumbnails/02.jpg" alt="A picture of a lake." >
-        </a>
+            <a class="a-element" href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.
+            ">
+                <img class="pic" src="photos/thumbnails/02.jpg" alt="A picture of a lake." >
+                <div class="overlay">
+                    <h3>The Lake</h3>
+                    <p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
+                </div>
+            </a>
 
-        <a href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
-            <img src="photos/thumbnails/03.jpg" alt="A picture of a green forest in the mountains." >
-        </a>
+            <a class="a-element" href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+                <img class="pic" src="photos/thumbnails/03.jpg" alt="A picture of a green forest in the mountains." >
+                <div class="overlay">
+                    <h3>The Mountain</h3>
+                    <p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
+                </div>
+            </a>
 
-        <a href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
-            <img src="photos/thumbnails/04.jpg" alt="A picture of an iceburg." >
-        </a>
+            <a class="a-element" href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+                <img class="pic" src="photos/thumbnails/04.jpg" alt="A picture of an iceburg." >
+                <div class="overlay">
+                    <h3>The Iceberg</h3>
+                    <p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today. </p>
+                </div>
+            </a>
 
-        <a href="photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
-        ">
-            <img src="photos/thumbnails/05.jpg" alt="A picture of red rock formations." >
-        </a>
+            <a class="a-element" href="photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
+            ">
+                <img class="pic" src="photos/thumbnails/05.jpg" alt="A picture of red rock formations." >
+                <div class="overlay">
+                    <h3>The Red Cliffs</h3>
+                    <p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
+                </div>
+            </a>
 
-        <a href="photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.
-        ">
-            <img src="photos/thumbnails/06.jpg" alt="A picture of a hill with pine trees." >
-        </a>
+            <a class="a-element" href="photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.
+            ">
+                <img class="pic" src="photos/thumbnails/06.jpg" alt="A picture of a hill with pine trees." >
+                <div class="overlay">
+                    <h3>Fall</h3>
+                    <p>Fall is coming, I love when the leaves on the trees start to change color.</p>
+                </div>
+            </a>
 
-        <a href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
-            <img src="photos/thumbnails/07.jpg" alt="A picture of a green field lined with forest." >
-        </a>
+            <a class="a-element" href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+                <img class="pic" src="photos/thumbnails/07.jpg" alt="A picture of a green field lined with forest." >
+                <div class="overlay">
+                    <h3>The Plantation</h3>
+                    <p>I drove past this plantation yesterday, everything is so green!</p>
+                </div>
+            </a>
 
-        <a href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
-            <img src="photos/thumbnails/08.jpg" alt="A picture of a beach dune." >
-        </a>
+            <a class="a-element" href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+                <img class="pic" src="photos/thumbnails/08.jpg" alt="A picture of a beach dune." >
+                <div class="overlay">
+                    <h3>The Beach Dune</h3>
+                    <p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
+                </div>
+            </a>
 
-        <a href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane. ">
-            <img src="photos/thumbnails/09.jpg" alt="A picture of a countryside lane." >
-        </a>
+            <a class="a-element" href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane. ">
+                <img class="pic" src="photos/thumbnails/09.jpg" alt="A picture of a countryside lane." >
+                <div class="overlay">
+                    <h3>The Countryside Lane</h3>
+                    <p>We enjoyed a quiet stroll down this countryside lane.</p>
+                </div>
+            </a>
 
-        <a href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
-            <img src="photos/thumbnails/10.jpg" alt="A picture of the ocean from a cliff at dusk." >
-        </a>
+            <a class="a-element" href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+                <img class="pic" src="photos/thumbnails/10.jpg" alt="A picture of the ocean from a cliff at dusk." >
+                <div class="overlay">
+                    <h3>Ocean Sunset</h3>
+                    <p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
+                </div>
+            </a>
 
-        <a href="photos/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
-            <img src="photos/thumbnails/11.jpg" alt="A picture of a valley from the mouth of a cave." >
-        </a>
+            <a class="a-element" href="photos/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+                <img class="pic" src="photos/thumbnails/11.jpg" alt="A picture of a valley from the mouth of a cave." >
+                <div class="overlay">
+                    <h3>Cave View</h3>
+                    <p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
+                </div>
+            </a>
 
-        <a href="photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
-            <img src="photos/thumbnails/12.jpg" alt="A picture of a mountain from a grassy plain." >
-        </a>
+            <a class="a-element" href="photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+                <img class="pic" src="photos/thumbnails/12.jpg" alt="A picture of a mountain from a grassy plain." >
+                <div class="overlay">
+                    <h3>Mountain View</h3>
+                    <p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
+                </div>
+            </a>
 
-    </div>
+        </div>
+    </main>
 
-    <script src="js/searchFilter.js"></script>
+    <!-- <script src="js/searchFilter.js"></script> -->
     <script src="js/baguetteBox.min.js" async></script>
     <script src="js/app.js"></script>
     <script>
         window.addEventListener('load', function() {
           baguetteBox.run('.gallery');
         });
-        </script>
+    </script>
 </body>
 </html>
