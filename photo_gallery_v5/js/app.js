@@ -1,19 +1,8 @@
-// const search = new Filter('search', 'data-caption');
+/*=================
+Note: As per baguetteBox instructions, linked the baguettBox.run('.gallery') function in the html doc. 
+==================*/
 
-// baguetteBox.run('.gallery', {
-//     captions: true,
-//     buttons: 'auto',
-//     fullScreen: false,
-//     noScrollbars: false,
-//     titleTag: true,
-//     async: false,
-//     preload: 2,
-//     // animation: 'fadeIn',
-//     afterShow: function() {},
-//     afterHide: function() {},
-//     onChange: null,
 
-// });
 
 /*-----------------------------
 The JS Search
